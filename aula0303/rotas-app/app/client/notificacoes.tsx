@@ -4,7 +4,7 @@ import { Button, Text, View } from "react-native";
 export default function Aba1() {
   return (
     <View style={{ flex: 1, alignItems: "center", justifyContent: "center" }}>
-      <Text>Tela da Aba 2</Text>
+      <Text>Notificações</Text>
 
       <Button title="Voltar para Home" onPress={() => router.push("/")} />
     </View>

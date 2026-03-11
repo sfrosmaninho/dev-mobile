@@ -13,9 +13,23 @@ export default function Index() {
 
       <Pressable
         style={styles.button}
-        onPress={() => router.push("/client/aba1")}
+        onPress={() => router.push("/client/dashboard")}
       >
         <Text style={styles.buttonText}>Cliente</Text>
+      </Pressable>
+
+      <Pressable
+        style={styles.button}
+        onPress={() => router.push("/client/dashboard")}
+      >
+        <Text style={styles.buttonText}>Dashboard</Text>
+      </Pressable>
+
+      <Pressable
+        style={styles.button}
+        onPress={() => router.push("/client/configuracoes")}
+      >
+        <Text style={styles.buttonText}>Configurações</Text>
       </Pressable>
     </View>
   );
